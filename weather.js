@@ -2,7 +2,7 @@
 const weatherForm = document.querySelector('.weatherForm'); //stores first instance of the weatherForm class that takes city input and submits
 const cityInput = document.querySelector('.cityInput'); //stores first instance of the cityInput class
 const card = document.querySelector('.card'); //stores first instance of the weather card class
-const apiKey = /*PASTE YOUR OWN CUSTOM API KEY HERE AS A STRING*/"; // OpenWeatherMap API key
+const apiKey = /*PASTE YOUR OWN CUSTOM API KEY HERE AS A STRING*/ // OpenWeatherMap API key
 // End of constant declarations
 
 weatherForm.addEventListener("submit", async event => {
